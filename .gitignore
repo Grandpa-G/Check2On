@@ -3,11 +3,11 @@
 *.ko
 *.obj
 *.elf
-
+obj
 # Precompiled Headers
 *.gch
 *.pch
-
+dlls
 # Libraries
 *.lib
 *.a
@@ -15,11 +15,11 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
+
 *.so
 *.so.*
 *.dylib
-
+assests
 # Executables
 *.exe
 *.out
@@ -74,3 +74,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+PlayerStats/bin/Release/HttpServer.dll
+PlayerStats/bin/Release/Mono.Data.Sqlite.dll
+PlayerStats/bin/Release/MySql.Data.dll
+PlayerStats/bin/Release/MySql.Web.dll
+PlayerStats/bin/Release/Newtonsoft.Json.dll
+PlayerStats/bin/Release/TShockAPI.dll
+
+PlayerStats/obj/Debug/PlayerStats.pdb
+PlayerStats/obj/Debug/PlayerStats.pdb
