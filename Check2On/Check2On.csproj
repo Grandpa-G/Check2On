@@ -35,16 +35,20 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
       <HintPath>DLLS\Mono.Data.Sqlite.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>DLLS\MySql.Data.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="MySql.Web">
       <HintPath>DLLS\MySql.Web.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLLS\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -56,9 +60,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="TerrariaServer">
       <HintPath>DLLS\TerrariaServer.exe</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="TShockAPI">
       <HintPath>DLLS\TShockAPI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
