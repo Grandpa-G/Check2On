@@ -74,9 +74,11 @@ namespace Check2On
              var player = args.Player.UserAccountName;
             if (player == null)
                 return;
-
+            int index = args.Player.Index;
             foreach (TSPlayer tsPlayer in TShock.Players.Where(p => null != p))
             {
+                if(tsPlayer.Index == index) // explicitally check for myself
+                    continue;
                 if (args.Player.UserAccountName.Equals(tsPlayer.UserAccountName))
                 {
                     switch (Check2OnConfig.action)
